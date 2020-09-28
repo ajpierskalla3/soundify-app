@@ -56,7 +56,7 @@ app.get("/profile", (req, res) => {
 
 app.get("/artist");
 
-// Define a port and start listening for connections.
+// Define a port and start listening.
 const port = 4001;
 
 app.listen(port, () => console.log(`Listening on port ${port}...`));
